@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fsociety | Dossier — Valery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <header class="top-header">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Logo FSOCIETY">
+            </div>
+            <h1 class="header-title">FSOCIETY | EXPOSED</h1>
+        </header>
+
+        <!-- Navegación: solo botón de atrás -->
+        <nav class="main-nav">
+            <a href="/anexados.html" class="back-link">← Volver a Anexados</a>
+        </nav>
+
+        <main class="main-content">
+            <section class="dossier">
+
+                <!-- Cabecera del expediente -->
+                <div class="dossier-top">
+                    <span class="dossier-code">EXPEDIENTE #001</span>
+                    <span class="dossier-status">Activo</span>
+                </div>
+
+                <!-- Foto + alias -->
+                <div class="dossier-header">
+                    <div class="dossier-photo">
+                        <img src="img/sujeto-valery.jpg" alt="Sujeto Valery"
+                             onerror="this.style.display='none'; this.parentElement.innerHTML='SIN IMAGEN';">
+                    </div>
+                    <div>
+                        <h2 class="dossier-alias">Valery</h2>
+                        <p class="dossier-name">Nombres Apellidos completos</p>
+                    </div>
+                </div>
+
+                <!-- ============ IDENTIFICACIÓN ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Identificación</h3>
+                    <div class="dossier-grid">
+                        <div class="dossier-field">
+                            <span class="dossier-label">Tipo de ID</span>
+                            <span class="dossier-value">Cédula de ciudadanía</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Número</span>
+                            <span class="dossier-value">1.098.xxx.xxx</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Licencia</span>
+                            <span class="dossier-value">C1 - Vigente</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Serial Reg. Civil</span>
+                            <span class="dossier-value">RC-0000-0000</span>
+                        </div>
+                        <div class="dossier-field full">
+                            <span class="dossier-label">Fecha de expedición</span>
+                            <span class="dossier-value">01 / 01 / 2015</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============ DATOS PERSONALES ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Datos personales</h3>
+                    <div class="dossier-grid">
+                        <div class="dossier-field">
+                            <span class="dossier-label">Nombres</span>
+                            <span class="dossier-value">Valery Andrea</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Apellidos</span>
+                            <span class="dossier-value">Apellido Apellido</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Género</span>
+                            <span class="dossier-value">Femenino</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Edad</span>
+                            <span class="dossier-value">27 años</span>
+                        </div>
+                        <div class="dossier-field full">
+                            <span class="dossier-label">Dirección de reposo</span>
+                            <span class="dossier-value">Calle 00 #00-00, Ciudad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============ CONTACTO ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Contacto</h3>
+                    <div class="dossier-grid">
+                        <div class="dossier-field full">
+                            <span class="dossier-label">Número de teléfono</span>
+                            <span class="dossier-value">+57 300 000 0000</span>
+                        </div>
+                        <div class="dossier-field full">
+                            <span class="dossier-label">Usuarios en redes</span>
+                            <span class="dossier-value">@usuario_1 · @usuario_2 · @usuario_3</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============ VEHÍCULO ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Vehículo</h3>
+                    <div class="dossier-grid">
+                        <div class="dossier-field">
+                            <span class="dossier-label">Vehículo</span>
+                            <span class="dossier-value">Marca Modelo Año</span>
+                        </div>
+                        <div class="dossier-field">
+                            <span class="dossier-label">Placas</span>
+                            <span class="dossier-value">ABC-123</span>
+                        </div>
+                        <div class="dossier-field full">
+                            <span class="dossier-label">Número de chasis</span>
+                            <span class="dossier-value">VIN-0000000000000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============ CARGOS ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Cargos registrados</h3>
+                    <ul class="dossier-charges">
+                        <li>Acceso no autorizado a sistemas privados.</li>
+                        <li>Distribución de información clasificada.</li>
+                        <li>Suplantación de identidad digital.</li>
+                    </ul>
+                </div>
+
+                <!-- ============ NOTAS ============ -->
+                <div class="dossier-section">
+                    <h3 class="dossier-section-title">Notas de la unidad</h3>
+                    <p class="dossier-notes">
+                        Sujeto bajo investigación por parte de la unidad. Se desconoce
+                        su paradero actual. Mantiene actividad en nodos cifrados y no
+                        deja rastro físico verificable.
+                    </p>
+                </div>
+
+                <span class="dossier-tag">— Simulación con fines creativos —</span>
+
+            </section>
+        </main>
+
+    </div>
+
+</body>
+</html>

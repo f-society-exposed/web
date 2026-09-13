@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fsociety | Anexados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+
+        <header class="top-header">
+            <div class="logo-container">
+                <img src="img/logo.png" alt="Logo Fsociety">
+            </div>
+            <h1 class="header-title">FSOCIETY | EXPOSED</h1>
+        </header>
+
+        <nav class="main-nav">
+            <a href="index.html">Inicio</a>
+            <a href="anexados.html" class="active">Anexados</a>
+        </nav>
+
+        <main class="main-content">
+            <section class="anexos">
+
+                <!-- Encabezado -->
+                <div class="anexos-header">
+                    <h2>Anexados</h2>
+                    <p class="anexos-sub">Expedientes clasificados por la unidad</p>
+                </div>
+
+                <!-- Buscador -->
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="buscador" class="search-input" placeholder="Buscar por nombre" autocomplete="off">
+                    <button class="search-clear" id="clear-search" aria-label="Limpiar búsqueda">×</button>
+                </div>
+
+                <!-- Contador -->
+                <div class="results-bar">
+                    <span id="results-count" class="results-count"></span>
+                </div>
+
+                <!-- Listado -->
+                <ul class="anexos-list" id="anexos-list">
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Red Fantasma</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Operación Silencio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Proyecto Espejo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Caso Medianoche</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Archivo Rojo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Protocolo Cero</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Sombra Digital</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Nodo Fantasma</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Cripta Negra</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Rastro Invisible</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Eco Silente</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="anexo-link">
+                            <span class="anexo-titulo">Última Señal</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Paginación (se dibuja con JavaScript) -->
+                <div class="pagination" id="pagination"></div>
+
+                <!-- Sin resultados -->
+                <p class="no-results" id="no-results">No se encontraron anexos que coincidan con la búsqueda.</p>
+
+                <!-- Cierre -->
+                <div class="anexos-footer">
+                    <p class="cierre">Los expedientes incompletos serán actualizados conforme la unidad avance.</p>
+                    <div class="firma">— Fsociety —</div>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
